@@ -7,6 +7,12 @@
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
+    "@repo/schema#build": {
+      "outputs": ["packages/schema/dist/**"]
+    },
+    "@repo/types#build": {
+      "outputs": ["packages/types/dist/**"]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },

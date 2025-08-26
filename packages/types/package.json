@@ -1,0 +1,22 @@
+{
+  "name": "@repo/types",
+  "version": "1.0.0",
+  "description": "A package for shared types across applications in the workspace.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@repo/schema": "^1.0.0",
+    "typescript": "^5.7.3"
+  }
+}
